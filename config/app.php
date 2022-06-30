@@ -163,6 +163,8 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        \App\Providers\UserServiceProvider::class,
+        \App\Providers\TodolistServiceProvider::class,
 
         /*
          * Package Service Providers...
